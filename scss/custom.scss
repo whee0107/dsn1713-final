@@ -9,6 +9,8 @@
 // $body-bg: #f80;
 
 
+
+
 // Theme colors
 // https://getbootstrap.com/docs/5.3/customize/color/#theme-colors
 $primary: #2F40A4;
@@ -32,21 +34,35 @@ $navbar-dark-brand-hover-color:     $navbar-dark-active-color;
 
 // // Typography
 $font-family-sans-serif: "Proxima Nova", sans-serif;
-$headings-font-family: "Abril Display", serif;
+$font-family-serif: "Abril Display", serif;
 
-
-// $h1-font-size: 1rem * 8;
-// $h2-font-size: 1rem * 2;
-// $h3-font-size: 1rem * 1.75;
-
-
-// $line-height-base: 1.6;
+h1{
+    font-family: $font-family-serif;
+    font-weight: bold !important;
+}
+h2{
+    font-family: $font-family-serif;
+}
+h3{
+    font-family: $font-family-serif;
+}
+h4{
+    font-family: $font-family-sans-serif;
+}
+$h1-font-size: 1rem * 8;
+$h2-font-size: 1rem * 2;
+$h3-font-size: 1rem * 1.75;
+$line-height-base: 1.6;
+#hero{
+    height: 800px;
+    background: linear-gradient(rgba($dark, 0.8), rgba($dark, 0.8)), url(../images/camera-film-sheet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
 // Then add additional custom code here
-
-
-
