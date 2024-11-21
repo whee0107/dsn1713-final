@@ -41,12 +41,12 @@
             </nav>
         </header>
         
-            <section id="hero" class="text-center text-light">
-                <div class="container">
+            <section id="main-hero" class="text-center text-light d-flex align-items-center">
+                <div class="container-fluid">
                     <h1>Your Photos, Your Story</h1>
-                    <p class="lead">Film development, photo digitizing, and custom printing services in Ottawa, offering professional solutions to preserve and share your photographic journey.</p>
+                    <p class="lead mx-auto" style="max-width: 60vw;">Film development, photo digitizing, and custom printing services in Ottawa, offering professional solutions to preserve and share your photographic journey.</p>
                     <button class="btn btn-primary">What We Do</button>
-                    <button class="btn btn-primary">Our Story</button>
+                    <button class="btn btn-outline-light">Our Story</button>
                 </div>
             </section>
         
@@ -57,7 +57,7 @@
                 <h2>Services</h2>
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card">
                             <img src="../images/holding-film.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h4 class="card-title">Film Development</h4>
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card">
                             <img src="../images/printer.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h4 class="card-title">Photo Printing</h4>
@@ -78,7 +78,7 @@
                     </div>
                     <div class="col-lg-4">
                         
-                        <div class="card" style="width: 18rem;">
+                        <div class="card">
                             <img src="../images/old-photo-box.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h4 class="card-title">Photo Digitising</h4>
@@ -87,62 +87,66 @@
                             </div>
                         </div>
                     </div>
-                </row>   
+                </div>   
             </div>
         </section>
-        <footer class="row row-cols-5 py-5 my-5 border-top bg-primary text-light">
-            <div class="col">
-                <a href="index.html"><img src="images/wordmark-light.svg" width="150px"></a>
-                <ul class="nav flex-column">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link p-0 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Film Development</a></li>
-                            <li><a class="dropdown-item" href="#">Photo Printing</a></li>
-                            <li><a class="dropdown-item" href="#">Photo Digitizing</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item mb-2"><a href="about-us.html" class="nav-link p-0">About Us</a></li>
-                    <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0">Contact</a></li>
-                </ul>
-            </div>
+        <footer>
+            <div class="container-fluid bg-primary text-light row row-cols-5 py-5">
+                <div class="col">
+                    <a href="index.html"><img src="images/wordmark-light.svg" width="150px"></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link p-0 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Film Development</a></li>
+                                <li><a class="dropdown-item" href="#">Photo Printing</a></li>
+                                <li><a class="dropdown-item" href="#">Photo Digitizing</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mb-2"><a href="about-us.html" class="nav-link p-0">About Us</a></li>
+                        <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0">Contact</a></li>
+                    </ul>
+                </div>
 
-            <div class="col-lg-3">
-                <h3>Contact</h3>
-                <ul class="nav flex-column">
-                    <li><a href="#">(613) 567-0770</a></li>
-                    <li><a href="#">fotodesk@gpclabworks.com</a></li>
-                </ul>
-            </div>
-        
-            <div class="col-lg-3">
-                <h3>Visit Us</h3>
-                <ul class="nav flex-column">
-                    <li><a href="#">273 Bank St 
-                        Ottawa, ON  K2P 1X5</a></li>
-                </ul>
-            </div>
-        
-            <div class="col-lg-3">
-                <h3>Hours</h3>
-                <div>
-                    <div class="row row-cols-2">
-                        <div class="col">Monday</div>
-                        <div class="col">Closed</div>
-                        <div class="col">Tuesday</div>
-                        <div class="col">9-5:30</div>
-                        <div class="col">Wednesday</div>
-                        <div class="col">9-5:30</div>
-                        <div class="col">Thursday</div>
-                        <div class="col">9-5:30</div>
-                        <div class="col">Friday</div>
-                        <div class="col">9-5:30</div>
-                        <div class="col">Saturday</div>
-                        <div class="col">12-4:30</div>
-                        <div class="col">Sunday</div>
-                        <div class="col">Closed</div>
+                <div class="col-lg-3">
+                    <h3>Contact</h3>
+                    <ul class="nav flex-column">
+                        <li><a href="#">(613) 567-0770</a></li>
+                        <li><a href="#">fotodesk@gpclabworks.com</a></li>
+                        <li><a href="#"><img src="images/icons/instagram.svg"></a></li>
+                        <li><a href="#"><img src="images/icons/linkedin.svg"></a></li>
+                    </ul>
+                </div>
+            
+                <div class="col-lg-3">
+                    <h3>Visit Us</h3>
+                    <ul class="nav flex-column">
+                        <li><a href="#">273 Bank St 
+                            Ottawa, ON  K2P 1X5</a></li>
+                    </ul>
+                </div>
+            
+                <div class="col-lg-3">
+                    <h3>Hours</h3>
+                    <div>
+                        <div class="row row-cols-2">
+                            <div class="col">Monday</div>
+                            <div class="col">Closed</div>
+                            <div class="col">Tuesday</div>
+                            <div class="col">9-5:30</div>
+                            <div class="col">Wednesday</div>
+                            <div class="col">9-5:30</div>
+                            <div class="col">Thursday</div>
+                            <div class="col">9-5:30</div>
+                            <div class="col">Friday</div>
+                            <div class="col">9-5:30</div>
+                            <div class="col">Saturday</div>
+                            <div class="col">12-4:30</div>
+                            <div class="col">Sunday</div>
+                            <div class="col">Closed</div>
+                        </div>
                     </div>
                 </div>
             </div>
