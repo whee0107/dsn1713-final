@@ -52,46 +52,61 @@
         
 
         <section id="services">
-            <div class="container">
+            <div class="container-fluid mt-4">
             
-                <h2>Services</h2>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <img src="../images/holding-film.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title">Film Development</h4>
-                                <p class="card-text">Whether you're shooting 35mm, disposable, or medium format, we bring your images to life with precision and care. From processing to scanning, we ensure every roll captures the beauty and nostalgia of film. Let us help you preserve your memories in a timeless way.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                <h2 class="text-center">Services</h2>
+
+                <div class="container-fluid my-4">
+                    <div class="row row-cols-1 row-cols-lg-3 g-4">
+                        <div class="col">
+                            <div class="card h-100 border-0">
+                                <img src="../images/holding-film.jpg" class="card-img-top img-fluid p-3" alt="Film Development">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Film Development</h5>
+                                    <p class="card-text mb-auto">
+                                    Whether you're shooting 35mm, disposable, or medium format, we bring your images to life with precision and care. Let us help you preserve your memories in a timeless way.
+                                    </p>
+                                    <div class="mt-3">
+                                        <a href="#" class="btn btn-primary mt-2">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 border-0">
+                                <img src="../images/printer.jpg" class="card-img-top img-fluid p-3" alt="Photo Printing">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Photo Printing</h5>
+                                    <p class="card-text mb-auto">
+                                    Transform your digital images into stunning, high-quality prints. From standard sizes to custom formats, we offer vibrant and durable photos.
+                                    </p>
+                                    <div class="mt-3">
+                                        <a href="#" class="btn btn-primary mt-2">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 border-0">
+                                <img src="../images/old-photo-box.jpg" class="card-img-top img-fluid p-3" alt="Photo Digitising">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Photo Digitising</h5>
+                                    <p class="card-text mb-auto">
+                                    Safeguard your cherished memories with our professional digitizing services. We carefully convert your prints, negatives, and slides. Ensuring they can be enjoyed and shared for years to come.
+                                    </p>
+                                    <div class="mt-3">
+                                        <a href="#" class="btn btn-primary mt-2">Learn More</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <img src="../images/printer.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title">Photo Printing</h4>
-                                <p class="card-text">Transform your digital images into stunning, high-quality prints. From standard sizes to custom formats, we offer vibrant, durable photos perfect for framing, sharing, or keeping in albums.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        
-                        <div class="card">
-                            <img src="../images/old-photo-box.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title">Photo Digitising</h4>
-                                <p class="card-text">Safeguard your cherished memories with our professional digitizing services. We carefully convert your prints, negatives, and slides into high-resolution digital files, ensuring they can be enjoyed and shared for years to come.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>   
+                </div> <!-- End of services container -->   
             </div>
-        </section>
-        <footer>
-            <div class="container-fluid bg-primary text-light row row-cols-5 py-5">
+        </section> <!-- End of services section -->   
+
+        <footer class="bg-primary pb-5">
+            <div class="mt-5 container-fluid text-light row row-cols-lg-5 g-4">
                 <div class="col">
                     <a href="index.html"><img src="images/wordmark-light.svg" width="150px"></a>
                     <ul class="nav flex-column">
@@ -113,15 +128,16 @@
                 <div class="col-lg-3">
                     <h3>Contact</h3>
                     <ul class="nav flex-column">
-                        <li><a href="#">(613) 567-0770</a></li>
-                        <li><a href="#">fotodesk@gpclabworks.com</a></li>
-                        <li><a href="#"><img src="images/icons/instagram.svg"></a></li>
-                        <li><a href="#"><img src="images/icons/linkedin.svg"></a></li>
+                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>(613) 567-0770</a></li>
+                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>fotodesk@gpclabworks.com</a></li>
+                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a></li>
+                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a></li>
                     </ul>
                 </div>
             
                 <div class="col-lg-3">
                     <h3>Visit Us</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
                     <ul class="nav flex-column">
                         <li><a href="#">273 Bank St 
                             Ottawa, ON  K2P 1X5</a></li>
@@ -131,7 +147,7 @@
                 <div class="col-lg-3">
                     <h3>Hours</h3>
                     <div>
-                        <div class="row row-cols-2">
+                        <div class="row row-cols-2 g-1" style="max-width: 500px;">
                             <div class="col">Monday</div>
                             <div class="col">Closed</div>
                             <div class="col">Tuesday</div>

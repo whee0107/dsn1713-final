@@ -6,7 +6,7 @@
 
 
 // body bg color
-// $body-bg: #f80;
+
 
 
 
@@ -22,6 +22,9 @@ $success: #b7e3cc;
 $light: #f2f2f2;
 $dark: #0A092D;
 
+$body-bg: rgba($dark, .05);
+
+// navbar
 $navbar-dark-color:                 rgba($light, .75);
 $navbar-dark-hover-color:           rgba($light, 1);
 $navbar-dark-active-color:          $success;
@@ -32,6 +35,9 @@ $navbar-dark-toggler-border-color:  rgba($light, .1);
 $navbar-dark-brand-color:           $navbar-dark-active-color;
 $navbar-dark-brand-hover-color:     $navbar-dark-active-color;
 
+// Card
+$card-bg: #fff;
+
 // // Typography
 $font-family-sans-serif: "Proxima Nova", sans-serif;
 $font-family-serif: "Abril Display", serif;
@@ -39,10 +45,11 @@ $font-family-serif: "Abril Display", serif;
 $link-color: $light;
 h1{
     font-family: $font-family-serif;
-    font-weight: bold !important;
+    font-weight: 900 !important;
 }
 h2{
     font-family: $font-family-serif;
+    font-weight: 700 !important;
 }
 h3{
     font-family: $font-family-serif;
@@ -51,7 +58,7 @@ h4{
     font-family: $font-family-sans-serif;
 }
 $h1-font-size: 1rem * 6;
-$h2-font-size: 1rem * 2;
+$h2-font-size: 1rem * 3;
 $h3-font-size: 1rem * 1.75;
 $line-height-base: 1.6;
 #main-hero{
