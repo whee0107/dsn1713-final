@@ -10,7 +10,7 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-                <div class="container-fluid">
+                <div class="container-lg">
                     <a class="navbar-brand" href="index.html"><img src="images/wordmark-light.svg" width="150px"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -40,67 +40,94 @@
             </nav>
         </header>
         <!-- make this into a two column grid i think! -->
-        <div class="container-fluid">
-            <h1>About Us</h1>
-            <p class="lead">At GPC Labworks, we are dedicated to preserving the timeless beauty of analog photography while offering modern solutions for digital formats. Located in the heart of Ottawa, we provide professional film development, high-quality photo printing, and expert photo digitizing services. Whether you're an experienced photographer or a hobbyist, our skilled team treats every project with care and precision. With years of industry expertise, we take pride in offering personalized service and exceptional results that meet the highest standards. GPC Labworks is your trusted partner in capturing and preserving memories for years to come.</p>
-            <button class="btn btn-primary">Join the Team</button>  
-            <img src="images/front-counter.jpg" class="img-fluid" style="max-height:400px;"> 
-        </div>
-        <section>
-            <div class="container">
-                <h2>Our Team</h2>
+        <section id="about-hero">
+            <div class="container-lg">
+                <div class="row align-items-center mt-5">
+                    <div class="col-lg-6">
+                        <h1>About Us</h1>
+                        <p class="lead">At GPC Labworks, we are dedicated to preserving the timeless beauty of analog photography while offering modern solutions for digital formats. Located in the heart of Ottawa, we provide professional film development, high-quality photo printing, and expert photo digitizing services. Whether you're an experienced photographer or a hobbyist, our skilled team treats every project with care and precision. With years of industry expertise, we take pride in offering personalized service and exceptional results that meet the highest standards. GPC Labworks is your trusted partner in capturing and preserving memories for years to come.</p>
+                        <button class="btn btn-primary">Join the Team</button>  
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="images/front-counter.jpg" class="img-fluid"> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about-our-team">
+            <div class="container my-5">
+                <h2 class="text-center mb-4">Our Team</h2>
                 <div class="row">
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="images/employees/pexels-jayb-11302135.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title">Emily Chen</h4>
-                                <p class="card-subtitle">Customer Service Manager</p>
-                                <p class="card-text">"Building relationships with our customers and guiding them through their projects makes every day exciting. GPC Labworks feels like a creative community."</p>
-                            </div>
-                        </div>
+                <!-- Emily chen -->
+                <div class="col-md-3 mb-4">
+                    <div class="card border-0" style="height: 100%;">
+                    <img 
+                        src="images/employees/pexels-jayb-11302135.jpg" 
+                        alt="Emily Chen" 
+                        class="card-img-top" 
+                        style="border-radius: 5px; object-fit: cover; height: 240px;">
+                    <div class="card-body d-flex flex-column p-0 pt-2">
+                        <h4 class="card-title">Emily Chen</h4>
+                        <p class="text-muted mb-1">Customer Service Manager</p>
+                        <p class="card-text flex-grow-1">"Building relationships with our customers and guiding them through their projects makes every day exciting. GPC Labworks feels like a creative community."</p>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="images/employees/pexels-kampus-8171180.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title">Sarah Thompson</h4>
-                                <p class="card-subtitle">Lead Film Technician</p>
-                                <p class="card-text">"I love watching customers’ memories come to life through film. There's something magical about developing an image that someone will cherish forever."</p>
-                            </div>
-                        </div>
                     </div>
-                    <div class="col-lg-3">           
-                        <div class="card">
-                            <img src="images/employees/pexels-olly-3785110.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title">Mark Davies</h4>
-                                <p class="card-subtitle">Photo Printing Specialist</p>
-                                <p class="card-text">"Every print we create tells a story. It’s rewarding to help people turn digital moments into physical keepsakes they can hold onto."</p>
-                            </div>
-                        </div>
+                </div>
+                <!-- Sarah Thompson -->
+                <div class="col-md-3 mb-4">
+                    <div class="card border-0" style="height: 100%;">
+                    <img 
+                        src="images/employees/pexels-kampus-8171180.jpg" 
+                        alt="Sarah Thompson" 
+                        class="card-img-top" 
+                        style="border-radius: 5px; object-fit: cover; height: 240px;">
+                    <div class="card-body d-flex flex-column p-0 pt-2">
+                        <h4 class="card-title">Sarah Thompson</h4>
+                        <p class="text-muted mb-1 ">Lead Film Technician</p>
+                        <p class="card-text flex-grow-1">"I love watching customers' memories come to life through film. There's something magical about developing an image that someone will cherish forever."</p>
                     </div>
-                    <div class="col-lg-3">
-                        
-                        <div class="card">
-                            <img src="images/employees/pexels-tiger-lily-7109087.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title">James Wilson</h4>
-                                <p class="card-subtitle">Digitization Specialist</p>
-                                <p class="card-text">"Helping preserve old family photos and films digitally is incredibly fulfilling. We’re making sure those memories are protected for future generations."</p>
-                            </div>
-                        </div>
                     </div>
-                </div>   
+                </div>
+                <!-- Mark Davies -->
+                <div class="col-md-3 mb-4">
+                    <div class="card border-0" style="height: 100%;">
+                    <img 
+                        src="images/employees/pexels-olly-3785110.jpg" 
+                        alt="Mark Davies" 
+                        class="card-img-top" 
+                        style="border-radius: 5px; object-fit: cover; height: 240px;">
+                    <div class="card-body d-flex flex-column p-0 pt-2">
+                        <h4 class="card-title">Mark Davies</h4>
+                        <p class="text-muted mb-1">Photo Printing Specialist</p>
+                        <p class="card-text flex-grow-1">"Every print we create tells a story. It's rewarding to help people turn digital moments into physical keepsakes they can hold onto."</p>
+                    </div>
+                    </div>
+                </div>
+                <!-- James Wilson -->
+                <div class="col-md-3 mb-4">
+                    <div class="card border-0" style="border-radius: 15px; height: 100%;">
+                    <img 
+                        src="images/employees/pexels-tiger-lily-7109087.jpg" 
+                        alt="James Wilson" 
+                        class="card-img-top" 
+                        style="border-radius: 5px; object-fit: cover; height: 240px;">
+                    <div class="card-body d-flex flex-column p-0 pt-2">
+                        <h4 class="card-title">James Wilson</h4>
+                        <p class="text-muted mb-1">Digitization Expert</p>
+                        <p class="card-text flex-grow-1">"Helping preserve old family photos and films digitally is incredibly fulfilling. We're making sure those memories are protected for future generations."</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
             </div>
         </section>
 
-        <section>
-            <div class="container">
+        <section id="about-testimonials">
+            <div class="container-lg">
                 <h2>Testimonials</h2>
                 <div class="row">
                     <div class="col-sm-4">
-                        <div class="card">
+                        <div class="card" style="height: 100%;">
                             <div class="card-body">
                                 <h4 class="card-title">Great Digitizing Service</h4>
                                 <blockquote class="blockquote">
@@ -111,7 +138,7 @@
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="card">
+                        <div class="card" style="height: 100%;">
                             <div class="card-body">
                                 <h4 class="card-title">Friendly Staff</h4>
                                 <blockquote class="blockquote">
@@ -122,7 +149,7 @@
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="card">
+                        <div class="card" style="height: 100%;">
                             <div class="card-body">
                                 <h4 class="card-title">Best Lab in Town</h4>
                                 <blockquote class="blockquote">
@@ -135,7 +162,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-4">
-                        <div class="card">
+                        <div class="card" style="height: 100%;">
                             <div class="card-body">
                                 <h4 class="card-title">Excellent Service</h4>
                                 <blockquote class="blockquote">
@@ -146,7 +173,7 @@
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="card">
+                        <div class="card" style="height: 100%;">
                             <div class="card-body">
                                 <h4 class="card-title">My Go-To</h4>
                                 <blockquote class="blockquote">
@@ -157,7 +184,7 @@
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="card">
+                        <div class="card" style="height: 100%;">
                             <div class="card-body">
                                 <h4 class="card-title">Great for Film Lovers</h4>
                                 <blockquote class="blockquote">
@@ -173,10 +200,10 @@
             </div>
         </section>
 
-        <footer class="bg-primary pb-5">
-            <div class="mt-5 container-fluid text-light row row-cols-lg-5 g-4">
+        <footer class="bg-primary pt-4 d-flex justify-content-center">
+            <div class="container-lg mb-4 text-light row row-cols-lg-4 g-4">
                 <!-- Nav Section -->
-                <div class="col d-flex flex-column">
+                <div class="col">
                     <div class="mb-3">
                         <a href="index.html"><img src="images/light-wordmark.svg" width="125px" alt="Logo"></a>
                     </div>
@@ -191,8 +218,8 @@
                                 <li><a class="dropdown-item" href="#">Photo Digitizing</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a href="about-us.html" class="nav-link p-0">About Us</a></li>
-                        <li class="nav-item"><a href="contact.html" class="nav-link p-0">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link p-0" href="about-us.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link p-0" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
         

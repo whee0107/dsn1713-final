@@ -34,6 +34,7 @@ $navbar-dark-icon-color:            $navbar-dark-color;
 $navbar-dark-toggler-border-color:  rgba($light, .1);
 $navbar-dark-brand-color:           $navbar-dark-active-color;
 $navbar-dark-brand-hover-color:     $navbar-dark-active-color;
+$nav-link-color:  rgba($light, 1);
 
 // Card
 $card-bg: #fff;
@@ -43,6 +44,12 @@ $font-family-sans-serif: "Proxima Nova", sans-serif;
 $font-family-serif: "Abril Display", serif;
 
 $link-color: $light;
+
+.lead{
+    font-size: 1rem * 1.1 !important;
+    line-height: 1.4;
+    font-weight: 400 !important;
+}
 h1{
     font-family: $font-family-serif;
     font-weight: 900 !important;
@@ -57,7 +64,8 @@ h3{
 h4{
     font-family: $font-family-sans-serif;
 }
-$h1-font-size: 1rem * 6;
+$body-font-size: 1rem;
+$h1-font-size: 1rem * 5;
 $h2-font-size: 1rem * 3;
 $h3-font-size: 1rem * 1.75;
 $line-height-base: 1.6;
@@ -69,6 +77,13 @@ $line-height-base: 1.6;
     background-position: center;
 }
 
+#about-our-team .card{
+    background-color: transparent !important;
+}
+
+.blockquote{
+    font-size: $body-font-size !important;
+}
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
