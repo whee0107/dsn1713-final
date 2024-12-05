@@ -37,8 +37,12 @@ h4, .h4 {
   background-color: transparent !important;
 }
 
-.blockquote {
-  font-size: 1rem !important;
+#contact-info a {
+  color: rgb(10, 9, 45);
+  text-decoration: none;
+}
+#contact-info a:hover {
+  color: #2F40A4;
 }
 
 /*!
@@ -78,7 +82,7 @@ h4, .h4 {
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f2f2f2;
-  --bs-dark: #0A092D;
+  --bs-dark: rgb(10, 9, 45);
   --bs-primary-rgb: 47, 64, 164;
   --bs-secondary-rgb: 55, 110, 211;
   --bs-success-rgb: 183, 227, 204;
@@ -2070,7 +2074,7 @@ progress {
 
 .table-dark {
   --bs-table-color: #fff;
-  --bs-table-bg: #0A092D;
+  --bs-table-bg: rgb(10, 9, 45);
   --bs-table-border-color: rgb(59, 58.2, 87);
   --bs-table-striped-bg: rgb(22.25, 21.3, 55.5);
   --bs-table-striped-color: #fff;
@@ -3129,8 +3133,8 @@ textarea.form-control-lg {
 
 .btn-dark {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #0A092D;
-  --bs-btn-border-color: #0A092D;
+  --bs-btn-bg: rgb(10, 9, 45);
+  --bs-btn-border-color: rgb(10, 9, 45);
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: rgb(46.75, 45.9, 76.5);
   --bs-btn-hover-border-color: rgb(34.5, 33.6, 66);
@@ -3140,8 +3144,8 @@ textarea.form-control-lg {
   --bs-btn-active-border-color: rgb(34.5, 33.6, 66);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #0A092D;
-  --bs-btn-disabled-border-color: #0A092D;
+  --bs-btn-disabled-bg: rgb(10, 9, 45);
+  --bs-btn-disabled-border-color: rgb(10, 9, 45);
 }
 
 .btn-outline-primary {
@@ -3264,19 +3268,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-dark {
-  --bs-btn-color: #0A092D;
-  --bs-btn-border-color: #0A092D;
+  --bs-btn-color: rgb(10, 9, 45);
+  --bs-btn-border-color: rgb(10, 9, 45);
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #0A092D;
-  --bs-btn-hover-border-color: #0A092D;
+  --bs-btn-hover-bg: rgb(10, 9, 45);
+  --bs-btn-hover-border-color: rgb(10, 9, 45);
   --bs-btn-focus-shadow-rgb: 10, 9, 45;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #0A092D;
-  --bs-btn-active-border-color: #0A092D;
+  --bs-btn-active-bg: rgb(10, 9, 45);
+  --bs-btn-active-border-color: rgb(10, 9, 45);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #0A092D;
+  --bs-btn-disabled-color: rgb(10, 9, 45);
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #0A092D;
+  --bs-btn-disabled-border-color: rgb(10, 9, 45);
   --bs-gradient: none;
 }
 
