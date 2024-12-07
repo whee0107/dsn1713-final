@@ -71,6 +71,11 @@ $h1-font-size: 1rem * 5;
 $h2-font-size: 1rem * 3;
 $h3-font-size: 1rem * 1.75;
 $line-height-base: 1.6;
+
+hr{
+    color: $primary !important;
+    opacity: 0.75 !important;
+}
 #main-hero{
     height: 685px;
     background: linear-gradient(rgba($dark, 0.8), rgba($dark, 0.8)), url(../images/camera-film-sheet.jpg);

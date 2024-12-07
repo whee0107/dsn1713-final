@@ -25,6 +25,11 @@ h4, .h4 {
   font-family: "Proxima Nova", sans-serif;
 }
 
+hr {
+  color: #2F40A4 !important;
+  opacity: 0.75 !important;
+}
+
 #main-hero {
   height: 685px;
   background: linear-gradient(rgba(10, 9, 45, 0.8), rgba(10, 9, 45, 0.8)), url(../images/camera-film-sheet.jpg);
